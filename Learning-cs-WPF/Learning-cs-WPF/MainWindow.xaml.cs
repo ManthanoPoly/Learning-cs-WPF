@@ -18,11 +18,17 @@ namespace Learning_cs_WPF
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnApply_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
