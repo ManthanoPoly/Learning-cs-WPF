@@ -15,4 +15,6 @@
 
 * ok, I'm done now. [continue here](https://youtu.be/sAAKu_SsaoA?list=PLiNd7TUPozDET_shXjcaYQiXscVDGIZkU&t=43) but first I have to manually create this WPF form which he skipped... This is going to be a good practise.
 
-2017.07.27 Had to do some drastic changes to the project. SQLite3 is gone. Apparently it doesn't yet support VS2017. Will look for tutorials for MySQL. 
+2017.07.27 early: Had to do some drastic changes to the project. SQLite3 is gone. Apparently it doesn't yet support VS2017. Will look for tutorials for MySQL. 
+
+2017.07.27 late: was a real nightmare to get EF 6 working... didn't succeed in it in the end and will have to write database access all manually with my own class system. This is terrible but caused by MySQL for Visual Studio not really working. Started a console app now just to learn more C# syntax from here [C# Tutorial](https://www.youtube.com/watch?v=lisiwUZJXqQ)
