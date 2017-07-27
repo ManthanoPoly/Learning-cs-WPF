@@ -14,3 +14,5 @@
 2017.07.25 22:36 
 
 * ok, I'm done now. [continue here](https://youtu.be/sAAKu_SsaoA?list=PLiNd7TUPozDET_shXjcaYQiXscVDGIZkU&t=43) but first I have to manually create this WPF form which he skipped... This is going to be a good practise.
+
+2017.07.27 Had to do some drastic changes to the project. SQLite3 is gone. Apparently it doesn't yet support VS2017. Will look for tutorials for MySQL. 
