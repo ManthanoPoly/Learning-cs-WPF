@@ -22,3 +22,12 @@
 2017.07.29 Had another one of the win32kfull.sys BSODs as Program.cs started having a lot of code. So I created a new class called OldCode.cs and that's where I keep pasting older code now. Somehow all the syntax highlighting causes a kernel error when it get's too much. Not great though for a program like VS2017 (but also had it in VS2015). Platform Win10 1703 (10.0.15063)
 
 22:30 finished the console tutorial... leant a bunch of new stuff, didn't get it all without proper application but code copied from video will serve as a reference. 
+
+2017.07.30 07:00 continued with tutorial from Bob Tabor [C# Fundamentals for Absolute Beginners - MVA (2016)](https://www.youtube.com/playlist?list=PLm-PcOa0HEDbnEdssI8lFgeY9NjI9u6RN)
+
+2017.07.30 22:45 finished Bob Tabors tutorial from MVA (2016)
+
+2017.07.31 07:00 first attempt to create some MySQL connection (I'm using MariaDB though)
+
+2017.07.31 22:00 continuing on with [WPF tutorial](https://youtu.be/6OwyNiLPDNw?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M&t=2763) but coming largely from Windows Forms it's still hard to see how the xaml connects with the c#
+
