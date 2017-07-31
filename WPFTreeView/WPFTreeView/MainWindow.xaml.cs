@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
+
 
 
 namespace WPFTreeView
@@ -71,9 +62,11 @@ namespace WPFTreeView
         private void Folder_Expanded(object sender, RoutedEventArgs e)
         {
             #region Initial Check
+
             var item = (TreeViewItem)sender;
+
             // If the item only contains the dummy data
-            if (item.Items.Count == 1 && item.Items[0] != null)
+            if (item.Items.Count != 1 || item.Items[0] != null)
                 return;
 
             // Clear dummy data
@@ -83,6 +76,7 @@ namespace WPFTreeView
             var fullPath = (string)item.Tag;
 
             #endregion
+
             #region Get Directories
 
             // Create a blank list for directories
