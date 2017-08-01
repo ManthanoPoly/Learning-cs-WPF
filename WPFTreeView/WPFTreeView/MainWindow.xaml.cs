@@ -59,6 +59,11 @@ namespace WPFTreeView
 
         #region Folder Expanded
 
+        /// <summary>
+        /// When a folder is expanded, find the sub folders/files
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Folder_Expanded(object sender, RoutedEventArgs e)
         {
             #region Initial Check
@@ -103,6 +108,8 @@ namespace WPFTreeView
                     // And tag as full path
                     Tag = directoryPath
                 };
+
+                // WPFTreeView.HeaderToImageConverter.Instance
 
                 // Add dummy item so we can expand folder
                 SubItem.Items.Add(null);
